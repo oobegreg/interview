@@ -5,7 +5,7 @@ using System.Diagnostics.Contracts;
 Console.WriteLine("Wellcome to my cat facts application.");
 
 // Set the facts limit from the command line
-int factsCount = args[0];
+int factsCount = args[1];
 
 // If facts count is greater than 20 limit to 20
 factsCount = FactsHelper.LimitFactsCount(factsCount);
